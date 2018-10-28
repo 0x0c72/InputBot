@@ -1,0 +1,50 @@
+{
+  "name": "InputBot",
+  "padlock": "pIafHBQgiUeyMJYtkbfaww==!DDGqYXE9KfHxA0qUF7WDqm0/hidUE/niWFgli1DJI5yO8L0nEq78NbFCznlyxocj",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "5e0b5690-d200-4f66-8611-2acafbdd3361",
+      "subscriptionId": "7211691f-f2fc-4af4-9d0d-82963077d2d2",
+      "resourceGroup": "input_bot",
+      "serviceName": "InputBot",
+      "type": "abs",
+      "name": "InputBot",
+      "id": "1"
+    },
+    {
+      "connectionString": "1DoR7iT4pTjjjW5CZKTvpw==!xAlVh4ushbfUk+vr1J0mCbs0iB0c9nJDTtpGmPfwZVJhskfFiemwgNUHiBSuHi5I8saqZBLf0Y0TL1NXdDB/lVGa5XYO63LVDNyuo3wcvDYVeGtihimtD5/W9CYEj1B3rSU0Z0aKYimpSsGDDIy2b5EHI3Y94enJahX4swzvFUPNEBiLWgW+wHJAk7yugbXfU/zHDYXzLCR6WK7dfBMwgQ==",
+      "tenantId": "5e0b5690-d200-4f66-8611-2acafbdd3361",
+      "subscriptionId": "7211691f-f2fc-4af4-9d0d-82963077d2d2",
+      "resourceGroup": "input_bot",
+      "serviceName": "inputbot01",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "3d3fdf0b-0e69-499e-8a20-fe38fd4f822d",
+      "appPassword": "txlr361knyiLspEQg8A4JA==!pfPIg6zyJQLdrUcpDsuinfgzr8OUl5KgVAMUREVVdis=",
+      "endpoint": "https://inputbot-01.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "appId": "2c20b608-5b31-4d0c-ab23-f3561d0957cb",
+      "authoringKey": "pJnCwyte36PwxKuwf3ygwQ==!UWyfDOWZIoJ014L+2ezsDsDglSkY3Fg+99GDi82psueK3ItMOMrmNDFbu9a1IGSY",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "5"
+    }
+  ]
+}
